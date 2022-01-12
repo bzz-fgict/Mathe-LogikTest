@@ -19,7 +19,7 @@ public class LogikTestMatheTest {
         testObjekt.setC(false);
         testObjekt.setD(false);
         //
-        assertTrue(testObjekt.executeLogicExpression());
+        assertFalse(testObjekt.executeLogicExpression());
     }
 
     // 1
@@ -30,7 +30,7 @@ public class LogikTestMatheTest {
         testObjekt.setC(false);
         testObjekt.setD(true);
         //
-        assertTrue(testObjekt.executeLogicExpression());
+        assertFalse(testObjekt.executeLogicExpression());
     }
 
     // 2
@@ -41,7 +41,7 @@ public class LogikTestMatheTest {
         testObjekt.setC(true);
         testObjekt.setD(false);
         //
-        assertTrue(testObjekt.executeLogicExpression());
+        assertFalse(testObjekt.executeLogicExpression());
     }
 
     // 3
@@ -52,7 +52,7 @@ public class LogikTestMatheTest {
         testObjekt.setC(true);
         testObjekt.setD(true);
         //
-        assertTrue(testObjekt.executeLogicExpression());
+        assertFalse(testObjekt.executeLogicExpression());
     }
 
     // 4
@@ -63,7 +63,7 @@ public class LogikTestMatheTest {
         testObjekt.setC(false);
         testObjekt.setD(false);
         //
-        assertTrue(testObjekt.executeLogicExpression());
+        assertFalse(testObjekt.executeLogicExpression());
     }
 
     // 5
@@ -74,7 +74,7 @@ public class LogikTestMatheTest {
         testObjekt.setC(false);
         testObjekt.setD(true);
         //
-        assertTrue(testObjekt.executeLogicExpression());
+        assertFalse(testObjekt.executeLogicExpression());
     }
 
     // 6
@@ -96,7 +96,7 @@ public class LogikTestMatheTest {
         testObjekt.setC(true);
         testObjekt.setD(true);
         //
-        assertTrue(testObjekt.executeLogicExpression());
+        assertFalse(testObjekt.executeLogicExpression());
     }
 
     // 8
@@ -151,7 +151,7 @@ public class LogikTestMatheTest {
         testObjekt.setC(false);
         testObjekt.setD(false);
         //
-        assertTrue(testObjekt.executeLogicExpression());
+        assertFalse(testObjekt.executeLogicExpression());
     }
 
     // 13
@@ -162,7 +162,7 @@ public class LogikTestMatheTest {
         testObjekt.setC(false);
         testObjekt.setD(true);
         //
-        assertTrue(testObjekt.executeLogicExpression());
+        assertFalse(testObjekt.executeLogicExpression());
     }
 
     // 14
@@ -184,6 +184,6 @@ public class LogikTestMatheTest {
         testObjekt.setC(true);
         testObjekt.setD(true);
         //
-        assertTrue(testObjekt.executeLogicExpression());
+        assertFalse(testObjekt.executeLogicExpression());
     }
 }

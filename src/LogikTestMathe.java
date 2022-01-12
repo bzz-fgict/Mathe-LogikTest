@@ -36,8 +36,13 @@
   // Der Rückgabewert ist vom Typ boolean.
   
   public boolean executeLogicExpression(){
-    boolean X=false;;
-    // implementieren sie hier Ihren Code
-    return X;
+
+      // implementieren sie hier Ihren Code
+      // if-else Statement mit return true bzw. return false
+
+      if ( (A && !B) || (B && C && !D))
+          return true;
+      else
+          return false;
   }
 }
