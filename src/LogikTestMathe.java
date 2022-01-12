@@ -37,7 +37,7 @@
   
   public boolean executeLogicExpression(){
     boolean X=false;;
-    // implementieren ie hier Ihren Code
+    // implementieren sie hier Ihren Code
     return X;
   }
 }
