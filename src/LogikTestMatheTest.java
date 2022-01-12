@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class LogikTestMatheTest {
@@ -10,6 +12,7 @@ public class LogikTestMatheTest {
 
     // 16 Testfälle für die Bitmuster 0000....1111
     // 0
+    @Test
     public void testfall_0000(){
         testObjekt.setA(false);
         testObjekt.setB(false);
@@ -20,6 +23,7 @@ public class LogikTestMatheTest {
     }
 
     // 1
+    @Test
     public void testfall_0001(){
         testObjekt.setA(false);
         testObjekt.setB(false);
@@ -30,6 +34,7 @@ public class LogikTestMatheTest {
     }
 
     // 2
+    @Test
     public void testfall_0010(){
         testObjekt.setA(false);
         testObjekt.setB(false);
@@ -40,6 +45,7 @@ public class LogikTestMatheTest {
     }
 
     // 3
+    @Test
     public void testfall_0011(){
         testObjekt.setA(false);
         testObjekt.setB(false);
@@ -50,6 +56,7 @@ public class LogikTestMatheTest {
     }
 
     // 4
+    @Test
     public void testfall_0100(){
         testObjekt.setA(false);
         testObjekt.setB(true);
@@ -60,6 +67,7 @@ public class LogikTestMatheTest {
     }
 
     // 5
+    @Test
     public void testfall_0101(){
         testObjekt.setA(false);
         testObjekt.setB(true);
@@ -70,6 +78,7 @@ public class LogikTestMatheTest {
     }
 
     // 6
+    @Test
     public void testfall_0110(){
         testObjekt.setA(false);
         testObjekt.setB(true);
@@ -80,6 +89,7 @@ public class LogikTestMatheTest {
     }
 
     // 7
+    @Test
     public void testfall_0111(){
         testObjekt.setA(false);
         testObjekt.setB(true);
@@ -90,6 +100,7 @@ public class LogikTestMatheTest {
     }
 
     // 8
+    @Test
     public void testfall_1000(){
         testObjekt.setA(true);
         testObjekt.setB(false);
@@ -100,6 +111,7 @@ public class LogikTestMatheTest {
     }
 
     // 9
+    @Test
     public void testfall_1001(){
         testObjekt.setA(true);
         testObjekt.setB(false);
@@ -110,6 +122,7 @@ public class LogikTestMatheTest {
     }
 
     // 10
+    @Test
     public void testfall_1010(){
         testObjekt.setA(true);
         testObjekt.setB(false);
@@ -120,6 +133,7 @@ public class LogikTestMatheTest {
     }
 
     // 11
+    @Test
     public void testfall_1011(){
         testObjekt.setA(true);
         testObjekt.setB(false);
@@ -130,6 +144,7 @@ public class LogikTestMatheTest {
     }
 
     // 12
+    @Test
     public void testfall_1100(){
         testObjekt.setA(true);
         testObjekt.setB(true);
@@ -140,6 +155,7 @@ public class LogikTestMatheTest {
     }
 
     // 13
+    @Test
     public void testfall_1101(){
         testObjekt.setA(true);
         testObjekt.setB(true);
@@ -150,6 +166,7 @@ public class LogikTestMatheTest {
     }
 
     // 14
+    @Test
     public void testfall_1110(){
         testObjekt.setA(true);
         testObjekt.setB(true);
@@ -160,6 +177,7 @@ public class LogikTestMatheTest {
     }
 
     // 15
+    @Test
     public void testfall_1111(){
         testObjekt.setA(true);
         testObjekt.setB(true);
